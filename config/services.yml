@@ -1,0 +1,18 @@
+services:
+    xtreamwayz.tools.gravatar.service:
+        class: xtreamwayz\tools\service\gravatar_service
+        arguments:
+            - @config
+            - @dbal.conn
+            - @request
+            - @template
+            - @service_container
+
+    xtreamwayz.tools.user.service:
+        class: xtreamwayz\tools\service\user_service
+        arguments:
+            - @config
+            - @dbal.conn
+            - @request
+            - @template
+            - @service_container

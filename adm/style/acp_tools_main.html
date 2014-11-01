@@ -1,0 +1,38 @@
+{% include 'overall_header.html'  %}
+
+<fieldset>
+    <legend>Actions</legend>
+
+    <form id="action_reset_signatures" method="post" action="{{ u_action }}">
+        {{ S_FORM_TOKEN }}
+        <dl>
+            <dt>
+                <label for="action_reset_signatures">Reset signatures</label><br />
+                <span>Reset all user's signatures to null.</span>
+            </dt>
+            <dd>
+                <input type="hidden" name="action" value="reset_signatures">
+                <input class="button2" type="submit" name="submit" value="Run now">
+            </dd>
+        </dl>
+    </form>
+
+    <form id="action_sync_gravatars" method="post" action="{{ u_action }}">
+        {{ S_FORM_TOKEN }}
+        <dl>
+            <dt>
+                <label for="action_sync_gravatars">Sync gravatars</label><br />
+                <span>Check all gravatars and delete invalid ones.</span>
+            </dt>
+            <dd>
+                <input type="hidden" name="action" value="sync_gravatars">
+                <input class="button2" type="submit" name="submit" value="Run now">
+            </dd>
+        </dl>
+    </form>
+
+</fieldset>
+
+<p>Admin tools version: <em>{{ extension_version }}</em></p>
+
+{% include 'overall_footer.html'  %}
