@@ -1,9 +1,6 @@
-# phpBB 3.1 Tools Extension
+# DEPRECATED
 
-[![Latest Stable Version](https://poser.pugx.org/xtreamwayz/tools/v/stable.svg)](https://packagist.org/packages/xtreamwayz/tools)
-[![Latest Unstable Version](https://poser.pugx.org/xtreamwayz/tools/v/unstable.svg)](https://packagist.org/packages/xtreamwayz/tools)
-[![Total Downloads](https://poser.pugx.org/xtreamwayz/tools/downloads.svg)](https://packagist.org/packages/xtreamwayz/tools)
-[![License](https://poser.pugx.org/xtreamwayz/tools/license.svg)](https://packagist.org/packages/xtreamwayz/tools)
+** This package is not maintained anymore **
 
 Tools is an Extension for [phpBB 3.1](https://www.phpbb.com/)
 
@@ -26,13 +23,3 @@ Set up the dependencies:
 
 Go to "ACP" > "Customise" > "Extensions" and enable the "phpBB 3.1 Tools Extension" extension.
 You can access the extension at the ACP extensions tab in the Admin Tools section.
-
-## Collaborate
-
-* Create a issue in the [tracker](https://github.com/xtreamwayz/phpbb-ext-tools/issues)
-* Note the restrictions for [branch names](https://wiki.phpbb.com/Git#Branch_Names) and [commit messages](https://wiki.phpbb.com/Git#Commit_Messages) are similar to phpBB3
-* Submit a [pull-request](https://github.com/xtreamwayz/phpbb-ext-tools/pulls)
-
-## License
-
-[GPLv2](license.txt)
